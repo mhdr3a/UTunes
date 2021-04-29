@@ -1,0 +1,238 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    direction: ltr;
+    background-color: #94618E;
+}
+.navbar
+{
+    height: 100px;
+}
+.brand
+{
+    width: 10%;
+    height: inherit;
+    float: left;
+}
+.brand > p
+{
+    height: 50%;
+    line-height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #49274A;
+}
+.menu
+{
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 50%;
+    height: inherit;
+    line-height: 50px;
+}
+.menu > li
+{
+    float: left;
+    width: 25%;
+    text-align: center;
+    line-height: inherit;
+    height: 50%;
+    margin: 25px 0;
+}
+.error > li
+{
+    width: 100%;
+}
+.menu > li > a
+{
+    text-decoration: none;
+    color: #EEE;
+    font-size: 18px;
+}
+.menu > li.active
+{
+    outline: 1px solid #EEE;
+}
+.songs
+{
+    height: auto;
+    margin: 50px auto;
+    width: 75%;
+    background-color: #49274A;
+}
+.song-info-container
+{
+    background-color: #EEE;
+    height: 400px;
+}
+.song-cover-container
+{
+    width: 30%;
+    float: left;
+    height: inherit;
+}
+.song-cover-container > img
+{
+    width: 100%;
+    height: inherit;
+    pointer-events: none;
+}
+.song-info
+{
+    float: left;
+    width: 70%;
+    height: inherit;
+    color: #000;
+}
+.h2-container
+{
+    margin: 0 auto;
+    height: 50px; 
+    overflow: hidden;
+}
+.h2-container > h2
+{
+    line-height: 55px;
+    text-align: center;
+    height: inherit;
+    margin: 0;
+}
+.audio-container
+{
+    width: 90%;
+    padding: 5px 5%;
+    margin: 0 auto;
+}
+audio
+{
+    width: 100%;
+    margin: 0;
+}
+.section-title
+{
+    height: 50px;
+    width: 100%;
+}
+.section-title > p
+{
+    margin: 0;
+    height: inherit;
+    line-height: 50px;
+    font-size: 24px;
+    text-align: center;
+    color: #EEE;
+}
+.recommended-songs-container > .section-title > p
+{
+    font-size: 21px;
+    line-height: 40px;
+}
+.recommended-songs-container > .section-title
+{
+    float: left;
+    background-color: #49274A;
+    height: 40px;
+}
+.songs > table, .recommended-songs-container > table
+{
+    border-collapse: collapse;
+    background-color: #FFF;
+    color: #000;
+    width: 100%;
+    margin: 0;
+}
+.recommended-songs-container > table
+{
+    height: 200px;
+}
+.songs > table > tbody > tr,
+.recommended-songs-container > table > tbody > tr
+{
+    height: 50px;
+    text-align: left;
+}
+.songs > table > thead > tr
+{
+    height: 50px;
+}
+.recommended-songs-container > table > tbody > tr, .songs > table > tbody > tr:not(.non-link),
+.non-link > td > [type='submit']
+{
+    cursor: pointer;
+}
+.recommended-songs-container > table > tbody > tr,
+.recommended-songs-container > table > thead > tr
+{
+    height: 40px;
+    text-align: left;
+}
+.songs > table > tbody > tr:nth-child(even),
+.recommended-songs-container > table > tbody > tr:nth-child(odd)
+{
+    background-color: #EEE;
+}
+.songs > table > tbody > tr > td
+{
+    text-align: left;
+    font-size: 18px;
+}
+.songs > table > tbody > tr > td:nth-child(1),
+.recommended-songs-container > table > tbody > tr > td:nth-child(1),
+.recommended-songs-container > table > thead > tr > th:nth-child(1)
+{
+    text-align: center;
+}
+.inside-td
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inside-td > [type='text']
+{
+    width: 50%;
+    margin-left: 1%;
+}
+.utils-container
+{
+    height: 46px;
+    width: 90%;
+    margin: 0 auto;
+}
+.util
+{
+    float: left;
+}
+.util:not(:nth-child(1))
+{
+    margin-left: 10%;
+}
+.util > img
+{
+    width: 46px;
+    height: inherit;
+    margin: 0;
+    float: left;
+}
+.util > p
+{
+    float: right;
+    font-size: 18px;
+    height: inherit;
+    line-height: 46px;
+    margin: 0;
+}
+.like-this-song
+{
+    cursor: pointer;
+}
+.error-template
+{
+    text-align: center;
+    color: #EEE;
+    border-top: 1px solid #49274A;
+    border-bottom: 1px solid #49274A;
+}
